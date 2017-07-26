@@ -1,0 +1,256 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+
+}
+img-max {
+  width: 80px;
+}
+body {
+  text-align: center;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: .02em;
+	font-size: 15px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5o0YhRwBEtM6LKIkjejTDV0D1F3vKAYC6Sthy9zXh-QjJWWAeiA');
+  background-repeat:repeat-x;
+  background-color: black;
+}
+.container {
+  width: 40%;
+  height: 80%;
+}
+header {
+	padding-top: 30px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/home_header_bg.jpg');
+	background-attachment: fixed;
+	height: 100vh;
+	display:flex;
+  align-items: center;
+  justify-content: center;
+}
+header img {
+  margin: 108px;
+  padding-left: 6px;
+  padding-right:32px;
+}
+
+ul{
+  margin:0px;
+  padding:0px;
+  border:0px;
+  list-style-type: none;
+  height:80px;
+
+}
+li{
+display: inline;
+ float:left;
+
+
+}
+ul li a{
+
+  text-decoration:none;
+  color:#fff;
+  font-family:Arial;
+  transition:all 0.4s ease-in-out;
+  background-color: gray;
+  padding:0;
+  margin: 0px;
+  list-style: none;
+  width:auto;
+  text-transform: uppercase;
+
+
+}
+ul li a:hover{
+
+  text-decoration:none;
+  color:#fff;
+  font-family:arial;
+  background-color:#98bf21;
+  padding:25px 10px 15px 18px;
+
+
+}
+ul li a.active{
+ padding:12px 12px 30px 12px;
+ background-color:#98bf21;
+
+}
+
+
+.hamburger {
+	display: none;
+	font-size: 20px;
+	margin: 10px 0;
+	padding-left: 20px;
+
+}
+
+h1 a,
+h1 a:hover,
+header h2 {
+	color: yellow;
+}
+::-webkit-input-placeholder {
+
+}
+:-moz-placeholder {
+
+}
+::-moz-placeholder {
+
+}
+:-ms-input-placeholder {
+
+}
+
+img {
+  max-height: 40%;
+  max-width: 40%;
+  width: 70%;
+  display: block;
+  position:sticky;
+  bottom: 0;
+  top: 25px;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+.hover{
+    background: url('https://s-media-cache-ak0.pinimg.com/736x/b8/5f/02/b85f0261b6339a8788c07bddfa879aec--african-women-african-fashion.jpg');
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    border: solid 10px #f2f2f2;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -o-border-radius: 30%;
+    -webkit-box-shadow: 0 0 5px #000 inset, 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000 inset, 0 0 5px #000;
+    -o-box-shadow: 0 0 5px #000 inset, 0 0 5px #000;
+}
+
+.hover:hover {
+    background: url('http://www.lojsociety.org/boys_files/youth-boy-l.jpg');
+    -webkit-transition-: 1s linear;
+    -moz-transition-: 1s linear;
+    -o-transition-: 1s linear;
+    -webkit-background-position: -600px -400px;
+    -moz-background-position: -600px -400px;
+    -o-background-position: -600px -400px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+p {
+	font-family: cursive;
+	text-transform: none;
+	line-height: 1px;
+ color: white;
+ padding-top: 2px;
+ padding-right: 2px;
+ font-size: 16px;
+
+}
+
+h1 {
+	font-size: 12px;
+	letter-spacing: 12px;
+  text-align: center;
+  padding-bottom: 76px;
+  max-width: 900px;
+  background: linear-gradient(145deg, green, yellow,red);
+  -webkit-text-fill-color: transparent;
+}
+nav {
+  font-size: 45px;
+  line-height: 30px;
+  font-weight: 100;
+  text-align: center;
+  color: green;
+  letter-spacing: -2px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0;
+  color: yellow;
+  }
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+   background: linear-gradient(145deg, green, yellow, red);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+ }
+h3 {
+	margin-bottom: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FF8C00;
+}
+footer a {
+	text-decoration: none;
+	color: #00BFFF ;
+	font-weight: 600;
+	transition: all .3s ease-in-out;
+}
+footer img {
+  left: -1px;
+  top: 40px;
+padding: 246px;
+padding-top: 0px;
+padding-bottom: 40px;
+margin: auto;
+}
+a:hover {
+	color: #44545E;
+}
+
+input {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 12px;
+	font-style: italic;
+	color: Gray;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+textarea {
+height: 150%;
+}
+
+button {
+	background-color: #44545E;
+  text-align: left;
+  text-transform: uppercase;
+  color: orange;
+  background color: yellow;
+
+}
+button:hover {
+ color: White;
+}
+.wrapper {
+  color: #1E90FF;
+}
+.social-links {
+ color: #1E90FF;
+}
